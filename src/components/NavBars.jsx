@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { FiMenu, FiX } from "react-icons/fi"
+import { GoCodeReview } from "react-icons/go"
 import { Link } from "react-scroll"
 
 function NavBars() {
@@ -13,9 +14,13 @@ function NavBars() {
     >
       <div className="container mx-auto flex items-center justify-between p-5">
         {/* LOGO */}
-        <a href="/" className="text-4xl font-bold italic text-cyan-900 uppercase">
-          dev.jay
+        <div className="flex ">
+        <a href="/" className="text-4xl font-bold text-cyan-900 uppercase">
+          dev.jay 
         </a>
+        <GoCodeReview className="text-1xl text-cyan-950"/>
+        </div>
+
 
         {/* Mobile Menu toggle */}
         <button
@@ -46,7 +51,7 @@ function NavBars() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } md:hidden bg-[#801b9c] absolute top-0 left-0 w-full h-screen flex flex-col items-center justify-center space-y-8 pt-16`}
+        } md:hidden bg-cyan-950 absolute top-0 left-0 w-full h-screen flex flex-col items-center justify-center space-y-8 pt-16`}
       >
         {/* close button */}
         <button

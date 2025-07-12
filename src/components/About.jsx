@@ -1,5 +1,6 @@
 import React from "react"
 import chibiAbout from "../images/chibiAbout.jpg"
+import Resume from "../files/Resume.pdf"
 import { IoDocumentText } from "react-icons/io5"
 
 function About() {
@@ -33,9 +34,9 @@ function About() {
           <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed">
             Hello!👋  I'm Meljay Malinao, a web developer based in Cavite, Philippines , I'm a passionate and highly motivated self-taught developer with a strong foundation in modern web technologies. My journey into programming has been driven by curiosity and a hands-on approach, allowing me to quickly acquire and apply new skills to build functional and engaging web applications.
           </p>
-          <button className="btn font-bold shadow-xl hover:shadow-gray-800/50 text-cyan-950 border-2 hover:bg-gray-500 border-cyan-950 py-4 px-8  uppercase hover:text-white hover:animate-pulse">
+          <a href={Resume} download='Resume' className="btn font-bold shadow-xl hover:shadow-gray-800/50 text-cyan-950 border-2 hover:bg-gray-500 border-cyan-950 py-4 px-8  uppercase hover:text-white hover:animate-pulse">
             <IoDocumentText /> Resume
-          </button>
+          </a>
         </article>
       </div>
     </section>

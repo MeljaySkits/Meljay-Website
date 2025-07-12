@@ -37,7 +37,7 @@ function Stack() {
                 <h1 className="text-3xl sm:text-4xl font-bold uppercase animate-pulse">
                     My Tech-<span className='text-cyan-950'>Stack</span>
                 </h1>
-                <p className=' mt-2 sm:mt-4 text-2xl sm:text-base'>My primary stack includes JavaScript, React, Node.js, and Supabase, making me well-equipped to build modern, business-ready web applications. </p>
+                <p className=' mt-2 sm:mt-4 text-2xl sm:text-base'>My current stack are JavaScript, React, Node.js, and Supabase, making me well-equipped to build modern, business-ready web applications. </p>
             </header>
             <section data-aos='fade-up' data-aos-delay='500' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-4'>
                 {skillsData.map((skill) => (
