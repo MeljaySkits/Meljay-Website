@@ -30,11 +30,11 @@ function Stack() {
   return (
     <>
     <section id="/skill" className='relative min-h-screen overflow-hidden flex flex-col items-center justify-center px-4 py-10'>
-        <img src={skill} alt="left-picture" className='absolute z-10 left-2 top-2 sm:left-50 sm:top-32 transform -rotate-12 w-24 h-auto sm:w-32 opacity-70' />
+        <img src={skill} alt="left-picture" className='absolute z-10 left-2 top-2 sm:left-50 sm:top-15 transform -rotate-12 w-24 h-auto sm:w-32 opacity-70' />
 
         <div data-aos='fade-up' data-aos-delat='300' className='relative z-20 text-center space-y-6 sm:space-y-10'>
             <header>
-                <h1 className="text-3xl sm:text-4xl font-bold uppercase animate-pulse">
+                <h1 className="text-3xl sm:text-4xl text-black font-bold uppercase animate-pulse">
                     My Tech-<span className='text-cyan-950'>Stack</span>
                 </h1>
                 <p className=' mt-2 sm:mt-4 text-2xl sm:text-base'>My current stack are JavaScript, React, Node.js, and Supabase, making me well-equipped to build modern, business-ready web applications. </p>
@@ -46,7 +46,7 @@ function Stack() {
                 ))}
             </section>
         </div>
-        <img src={skill} alt="Right Picture" className='absolute z-10 right-2 top-2 sm:right-50 sm:top-32 transform rotate-12 w-24 h-auto sm:w-32 opacity-70 scale-x-[-1]' />
+        <img src={skill} alt="Right Picture" className='absolute z-10 right-2 top-2 sm:right-50 sm:top-15 transform rotate-12 w-24 h-auto sm:w-32 opacity-70 scale-x-[-1]' />
     </section>
     </>
   )
