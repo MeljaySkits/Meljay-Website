@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
+
 function Footer() {
   return (
     <footer className='bg-base-300 text-cyan-950 py-5'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import herosection from '../images/herosection.jpg'
+import codingemoji from '../images/codingemoji.png'
 import { FaGithub, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
 
 function Hero() {
@@ -9,7 +10,7 @@ function Hero() {
             <section className='flex-1 mr-28 md:text-left mt-10 md:mt-0 relative' data-aos='fade-up' data-aos-delay='500'>
                 <div className='absolute -z-10 w-60 h-60 rounded-full blur-3xl opacity-50 -top-5 -left-12'></div>
                 <header>
-                    <h1 className='text-4xl sm:text-4xl md:text-5xl font-bold mb-4'>Aspiring React <span className='text-4xl sm:text-4xl md:text-5xl font-bold text-cyan-900'>Frontend Developer</span></h1></header>
+                    <h1 className='text-4xl sm:text-4xl md:text-5xl font-bold mb-4'>Aspiring React <span className='text-4xl sm:text-4xl md:text-5xl font-bold text-cyan-900'>Frontend Developer</span> <span><img src={codingemoji} width={40}/></span></h1></header>
                 <p className='text-base sm:text-lg md:text-lg mb-6'> Hi, I'm  Meljay Malinao! A former IT Specialist and Network Administrator, I have switched to web development, with a passion to craft the web experiences of the future.</p>
                 <div className='flex items-center space-x-4 mb-6'>
                     <a
