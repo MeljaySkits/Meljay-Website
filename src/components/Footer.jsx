@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaGithub, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
-import { Link } from 'react-scroll'
 
 
 function Footer() {
@@ -17,34 +16,20 @@ function Footer() {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/meljay-malinao-a34687278"
-<<<<<<< HEAD
                   className="text-gray-800 hover:text-gray-500  glow"
-=======
-                  className="text-gray-800 hover:text-gray-500 rounded-full glow"
->>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
                 >
                   <FaLinkedin className="text-[30px]" />
                 </a>
                 <a
                   href="https://www.instagram.com/zphyrs_23?igsh=NmEzY2IwcWVsc2tz"
-<<<<<<< HEAD
                   className="text-gray-800 hover:text-gray-500 glow"
-=======
-                  className="text-gray-800 hover:text-gray-500 rounded-full glow"
->>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
                 >
                   <FaInstagramSquare className="text-[30px]" />
                 </a>
             </div>
-<<<<<<< HEAD
         </div>
     </footer>
     
-=======
-
-        </div>
-    </footer>
->>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
   )
 }
 

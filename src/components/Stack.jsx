@@ -3,12 +3,8 @@ import Javascript from "../images/Javascript.png"
 import React from "../images/React.png"
 import Tailwind from "../images/Tailwind.png"
 import Node from "../images/Node.png"
-import Supabase from "../images/Supabase.png"
-<<<<<<< HEAD
 import Postgre from "../images/Postgre.png"
 
-=======
->>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
 
 const skillsData = [
   {
@@ -41,17 +37,10 @@ const skillsData = [
   },
   {
     id: 5,
-<<<<<<< HEAD
     image: Postgre,
     title: "PostgreSQL",
     description:
       "PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads",
-=======
-    image: Supabase,
-    title: "Supabase",
-    description:
-      "Supabase is an open-source backend-as-a-service (BaaS) that positions itself as an alternative to Google Firebase",
->>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
   },
 ]
 

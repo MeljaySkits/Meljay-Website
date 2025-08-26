@@ -8,11 +8,7 @@ function NavBars() {
 
   return (
     <div
-<<<<<<< HEAD
       className="relative top-0 left-0 w-full z-20 bg-base-300"
-=======
-      className="fixed top-0 left-0 w-full z-20 bg-base-300  cursor-pointer"
->>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
       data-aos="fade-up"
       data-aos-delays="300"
     >
