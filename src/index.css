@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.active {
+  padding-boot: 12px;
+  border-bottom: 3px solid var(--color-secondary);
+}
+
+
+
+.b_glow {
+  box-shadow: 0 0 55px rgb(54, 69, 79);
+}
+
+.glow {
+  transition: all 0.3s ease-in-out;
+}
+.glow:hover {
+  box-shadow: 0 0 25px rgb(54, 69, 79);
+}
+
+.img_glow {
+  box-shadow: 0 0 55px rgb(8, 51, 68);
+}
+
+@layer base {
+  html {
+    scroll-behavior : smooth;
+  }
+}
+
+ @plugin "daisyui" {
+   themes: nord --default, nord --prefersdark;
+ }
