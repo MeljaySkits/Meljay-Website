@@ -1,8 +1,11 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import chibi from '../images/chibi.jpg'
+<<<<<<< HEAD
 import { FaArrowUp } from 'react-icons/fa'
 import { Link } from 'react-scroll'
+=======
+>>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
 
 function Contact() {
     const form = useRef()
@@ -31,7 +34,10 @@ function Contact() {
 
 
   return (
+<<<<<<< HEAD
     <>
+=======
+>>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
     <section id="/contact" data-aos='fade-up' data-aos-delay='300' className='min-h-screen overflow-hidden flex items-center p-6 mt-10 relative justify-center bg-slate-100'>
         <div className='shadow-2xl rounded-2xl flex flex-col md:flex-row max-w-4xl w-full relative bg-slate-300'>
             <figure className='flex flex-wrap justify-center left-2 gap-4 mt-2 mb-2 relative'>
@@ -64,6 +70,7 @@ function Contact() {
 
             </form>
             </section>
+<<<<<<< HEAD
         </div>
 
               <div
@@ -72,6 +79,12 @@ function Contact() {
             </div>
     </section>
     </>
+=======
+
+        </div>
+
+    </section>
+>>>>>>> 3539222141b829c3dfd55f4f77294870ca93b2b0
   )
 }
 
