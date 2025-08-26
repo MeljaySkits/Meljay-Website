@@ -5,7 +5,6 @@ import Tailwind from "../images/Tailwind.png"
 import Node from "../images/Node.png"
 import Postgre from "../images/Postgre.png"
 
-
 const skillsData = [
   {
     id: 1,
@@ -79,7 +78,7 @@ function Stack() {
               My Tech-<span className="text-cyan-950">Stack</span>
             </h1>
             <p className=" mt-2 sm:mt-4 text-2xl sm:text-base">
-              My current stack are JavaScript, React, Node.js, and Supabase,
+              My current stack are JavaScript, React, Node.js, and PostgreSql,
               making me well-equipped to build modern, business-ready web
               applications.{" "}
             </p>
